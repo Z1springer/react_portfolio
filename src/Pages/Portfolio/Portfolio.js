@@ -1,5 +1,7 @@
 import React from "react";
 
-function RouteCard() {
+function Portfolio() {
   return <div></div>;
 }
+
+export default Portfolio;
