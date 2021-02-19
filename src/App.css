@@ -22,6 +22,7 @@ body {
   animation-delay: 6s;
   animation-duration: 3s;
   /* FIXME: not staying in its final state */
+  animation-fill-mode: forwards;
 }
 
 .holo {
