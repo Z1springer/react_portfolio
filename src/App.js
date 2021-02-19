@@ -7,6 +7,9 @@ import Intro from "./Pages/Intro/Intro";
 import Cog from "./cog_mechanicus_v2.png";
 import "./App.css";
 
+//===================================================================================================================
+
+// App Methods and Return Function===================================================================================================================
 function App() {
   return (
     <div className="App">
