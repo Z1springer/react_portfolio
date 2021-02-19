@@ -1,6 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=DotGothic16&display=swap");
+
 body {
-  text-align: center;
   background-color: black !important;
+}
+
+.App {
 }
 
 .imgWrapper {
@@ -11,14 +15,26 @@ body {
 }
 
 #introduction {
-  border: 8px solid #d4af37;
-  border-radius: 65px;
   color: #d4af37;
+  opacity: 0;
   height: 275px;
+  animation-name: textsomethingorother;
+  animation-delay: 6s;
+  animation-duration: 3s;
+  /* FIXME: not staying in its final state */
 }
 
-#introduction p {
-  font-size: 45px !important;
+.holo {
+  text-align: center;
+  border: 8px solid #d4af37;
+  border-radius: 65px;
+  padding: 20px 24px;
+  font-size: 22.5px !important;
+  font-family: "DotGothic16", sans-serif !important;
+  color: #fff;
+  letter-spacing: 0.8px;
+  text-shadow: 0 0 2.5px #fff, 0 0 10px #fff, 0 0 10px #fff, 0 0 20px #d4af37,
+    0 0 40px #d4af37, 0 0 45px #d4af37, 0 0 50px #d4af37, 0 0 75px #d4af37;
 }
 
 #omniCog {
@@ -29,6 +45,11 @@ body {
   animation-name: swirl;
   animation-duration: 6s;
   animation-timing-function: ease-in;
+}
+
+#projecter {
+  animation-name: holoProjecter;
+  animation-duration: unset;
 }
 
 @keyframes swirl {
@@ -52,6 +73,15 @@ body {
     left: 0;
     height: 666px;
     width: 666px;
+  }
+}
+
+@keyframes textsomethingorother {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
 
