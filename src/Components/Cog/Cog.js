@@ -1,5 +1,5 @@
 import React from "react";
 
-function RouteCard() {
+function Cog() {
   return <div></div>;
 }
