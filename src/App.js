@@ -3,18 +3,15 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import About from "./Pages/About/About";
 import Contact from "./Pages/Contact/Contact";
 import Portfolio from "./Pages/Portfolio/Portfolio";
+import Intro from "./Pages/Intro/Intro";
 import Cog from "./cog_mechanicus_v2.png";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <div className="imgWrapper">
-        <img src={Cog} alt="Cog" id="omniCog" />
-      </div>
-      <br />
       <div id="introduction">
-        <p>
+        <p className="holo">
           Rough pomfret lemon shark plownose chimaera southern sandfish kokanee
           northern sea robin Antarctic cod. Yellow-and-black triplefin gulper
           South American Lungfish mahi-mahi, butterflyfish glass catfish
@@ -22,17 +19,21 @@ function App() {
           straptail tailor zebra loach sea lamprey
         </p>
       </div>
+      <br />
+      <div className="imgWrapper">
+        <img src={Cog} alt="Cog" id="omniCog" />
+      </div>
+
       <Router>
-        <div className="About">
-          <Route exact path="/about" component={About} />
-        </div>
-        <div className="Contact">
-          <Route exact path="/contact" component={Contact} />
-        </div>
-        <div className="Portfolio">
-          <Route exact path="/portfolio" component={Portfolio} />
-        </div>
+        <Route exact path="/" component={Intro} />
+
+        <Route exact path="/about" component={About} />
+
+        <Route exact path="/contact" component={Contact} />
+
+        <Route exact path="/portfolio" component={Portfolio} />
       </Router>
+      <div id="projecter" />
     </div>
   );
 }
