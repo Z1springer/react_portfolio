@@ -1,4 +1,27 @@
 #aboutBtn {
-  width: 50px;
-  height: 60px;
+  position: absolute;
+  bottom: 50px;
+  right: 0;
+}
+
+#contactBtn {
+  position: absolute;
+  bottom: 0;
+  margin: auto;
+  text-align: center;
+  left: 0;
+  right: 0;
+}
+
+#portfolioBtn {
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+}
+
+.btn-warning {
+  width: 130px;
+  background-color: black;
+  color: #d4af37;
+  font-size: 22px;
 }
