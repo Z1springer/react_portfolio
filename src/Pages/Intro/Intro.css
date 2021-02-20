@@ -1,6 +1,6 @@
 #aboutBtn {
   position: absolute;
-  bottom: 50px;
+  bottom: 75px;
   right: 0;
 }
 
@@ -15,13 +15,27 @@
 
 #portfolioBtn {
   position: absolute;
-  bottom: 50px;
+  bottom: 75px;
   left: 0;
 }
 
 .btn-warning {
   width: 130px;
   background-color: black;
+  opacity: 0;
   color: #d4af37;
   font-size: 22px;
+  animation-name: btnRender;
+  animation-delay: 6s;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes btnRender {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
