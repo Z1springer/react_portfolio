@@ -7,21 +7,21 @@ function Intro() {
   return (
     <div>
       <Link to="/about">
-        <Button variant="outline-warning" size="lg" id="aboutBtn">
+        <Button variant="outline" className="btn-warning" id="aboutBtn">
           About
         </Button>
       </Link>
 
       <Link to="/contact">
         {" "}
-        <Button variant="outline-warning" size="lg" id="contactBtn">
+        <Button variant="outline" className="btn-warning" id="contactBtn">
           Contact
         </Button>
       </Link>
 
       <Link to="/portfolio">
         {" "}
-        <Button variant="outline-warning" size="lg" id="portfolioBtn">
+        <Button variant="outline" className="btn-warning" id="portfolioBtn">
           Portfolio
         </Button>
       </Link>
