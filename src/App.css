@@ -63,11 +63,6 @@ body {
   animation-timing-function: ease-in;
 }
 
-#projecter {
-  animation-name: holoProjecter;
-  animation-duration: unset;
-}
-
 @keyframes swirl {
   0% {
     transform: rotate(0deg);
