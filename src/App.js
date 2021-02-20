@@ -37,7 +37,6 @@ function App() {
 
           <Route exact path="/portfolio" component={Portfolio} />
         </Router>
-        <div id="projecter" />
       </div>
     </div>
   );
