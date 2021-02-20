@@ -1,7 +1,7 @@
 //TODO: cog loading icon
-//TODO: front page load animation for cog image
-//TODO: front page text translate binary animation
-//TODO: fade-in tab modals for navigation (possible pixel animation?)
+/X/TODO: front page load animation for cog image
+//TODO: front page text animation
+//TODO: fade-in buttons for navigation (possible pixel animation?)
 //TODO: About/Work-History/Future-Plans page (possible reuse of binary to text animations, must contain self-image)
 //TODO: Examples of my work page with hover animations (possible 3d)
 //TODO: contact page
@@ -11,6 +11,8 @@
 //TODO: look into getting started with career service
 [Original Image](#original)
 [Current Image](#img)
+[Text References](#text-references)
+[Future Development](#future-development)
 
 # Original
 
@@ -19,3 +21,13 @@
 # Img
 
 [Cog](./src/cog_mechanicus_v2.png) used on front page was edited from the original through [lunapic.com](https://www9.lunapic.com/editor/) image editor.
+
+# Text-References
+
+- [Glow Effect](https://codepen.io/AllThingsSmitty/pen/VzXrgY) by: [Matt Smith](https://codepen.io/AllThingsSmitty)
+
+# Future-Development
+
+- [Holographic projector](https://codepen.io/johnlouie04/pen/NeJBwO) by: [John Louie Biñas](https://codepen.io/johnlouie04), ignore the floating pistol...
+- [Snap SVG](http://snapsvg.io/) animations for the text
+-
