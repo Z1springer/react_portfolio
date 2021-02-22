@@ -9,10 +9,13 @@
 //TODO: font style must have a gothic feel to it when converted from binary
 //TODO: look for npm packages for added assistance
 //TODO: look into getting started with career service
+[Description](#description)
 [Original Image](#original)
 [Current Image](#img)
 [Text References](#text-references)
 [Future Development](#future-development)
+
+# Description
 
 # Original
 
@@ -29,5 +32,6 @@
 # Future-Development
 
 - [Holographic projector](https://codepen.io/johnlouie04/pen/NeJBwO) by: [John Louie Biñas](https://codepen.io/johnlouie04), ignore the floating pistol...
-- [Snap SVG](http://snapsvg.io/) animations for the text
--
+- [Snap SVG](http://snapsvg.io/) animations for the smaller text
+- [Glitch Effect](https://ihatetomatoes.net/how-to-create-css-glitch-effect/) by: [Petr Ticky](https://ihatetomatoes.net/the-best-of/), animations for the larger text
+- [Typing Carousel](https://codepen.io/gschier/pen/jkivt) by: [Gregory Schier](https://codepen.io/gschier), for introduction text on app load
