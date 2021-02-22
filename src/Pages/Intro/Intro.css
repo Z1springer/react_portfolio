@@ -1,3 +1,25 @@
+#introduction {
+  color: #d4af37;
+  opacity: 0;
+  margin-left: 50px;
+  margin-right: 50px;
+  position: relative;
+  animation-name: textRender;
+  animation-delay: 6s;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+#omniCog {
+  height: 666px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation-name: swirl;
+  animation-duration: 6s;
+  animation-timing-function: ease-in;
+}
+
 #aboutBtn {
   position: absolute;
   bottom: 75px;
@@ -19,6 +41,25 @@
   left: 0;
 }
 
+.holo {
+  text-align: center;
+  /* border: 8px solid #d4af37; */
+  /* border-radius: 65px; */
+  padding: 20px 24px;
+  font-size: 22.5px !important;
+  font-family: "DotGothic16", sans-serif !important;
+  color: #fff;
+  letter-spacing: 0.8px;
+  text-shadow: 0 0 2.5px #fff, 0 0 10px #fff, 0 0 10px #fff, 0 0 20px #d4af37,
+    0 0 40px #d4af37, 0 0 45px #d4af37, 0 0 50px #d4af37, 0 0 75px #d4af37;
+}
+
+.Intro {
+  /* border: 2px solid green; */
+  height: 98%;
+  width: 100%;
+}
+
 .btn-warning {
   width: 130px;
   background-color: black;
@@ -29,6 +70,56 @@
   animation-delay: 6s;
   animation-duration: 3s;
   animation-fill-mode: forwards;
+}
+.innerSelf {
+  /* border: 2px solid tan; */
+  margin: auto;
+  position: relative;
+  height: 1140px;
+  width: 1180px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imgWrapper {
+  /* border: solid red 2px; */
+  position: relative;
+  margin: auto;
+  width: 666px;
+  height: 666px;
+}
+
+@keyframes swirl {
+  0% {
+    transform: rotate(0deg);
+    top: 278px;
+    left: 278px;
+    height: 111px;
+    width: 111px;
+  }
+  98% {
+    transform: rotate(364deg);
+    top: 0;
+    left: 0;
+    height: 666px;
+    width: 666px;
+  }
+  100% {
+    transform: rotate(360deg);
+    top: 0;
+    left: 0;
+    height: 666px;
+    width: 666px;
+  }
+}
+
+@keyframes textRender {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @keyframes btnRender {
