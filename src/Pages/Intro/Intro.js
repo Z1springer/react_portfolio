@@ -11,11 +11,15 @@ function Intro() {
       <div className="innerSelf">
         <div id="introduction">
           <p className="holo">
-            Rough pomfret lemon shark plownose chimaera southern sandfish
-            kokanee northern sea robin Antarctic cod. Yellow-and-black triplefin
-            gulper South American Lungfish mahi-mahi, butterflyfish glass
-            catfish soapfish ling gray mullet! Warbonnet denticle herring
-            spiny-back cod straptail tailor zebra loach sea lamprey
+            Hello, My name is Zachary Springer. I am a Web Designer who would
+            very much like to add my skills to a company that wants to create
+            beautiful and intrecit web design. I am good at picking up routines
+            and not afraid to work with people who are willing to be on a team.
+            I seek to expand my knowledge of web design to cover a broad
+            spectrum, and I am more than willing to learn something new if it
+            means getting the job done.
+            <br />
+            Please Consider Me for Your Company!
           </p>
         </div>
         <br />

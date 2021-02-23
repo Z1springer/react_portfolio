@@ -6,7 +6,7 @@
   position: relative;
   animation-name: textRender;
   animation-delay: 6s;
-  animation-duration: 3s;
+  animation-duration: 5s;
   animation-fill-mode: forwards;
 }
 
@@ -21,14 +21,22 @@
 }
 
 #aboutBtn {
+  color: #fff;
+  letter-spacing: 0.8px;
+  text-shadow: 0 0 2.5px #fff, 0 0 10px #fff, 0 0 10px #fff, 0 0 20px #d4af37,
+    0 0 40px #d4af37, 0 0 45px #d4af37, 0 0 50px #d4af37, 0 0 75px #d4af37;
   position: absolute;
-  bottom: 75px;
-  right: 0;
+  bottom: 180px;
+  right: 350px;
 }
 
 #contactBtn {
+  color: #fff;
+  letter-spacing: 0.8px;
+  text-shadow: 0 0 2.5px #fff, 0 0 10px #fff, 0 0 10px #fff, 0 0 20px #d4af37,
+    0 0 40px #d4af37, 0 0 45px #d4af37, 0 0 50px #d4af37, 0 0 75px #d4af37;
   position: absolute;
-  bottom: 0;
+  bottom: 100px;
   margin: auto;
   text-align: center;
   left: 0;
@@ -36,9 +44,13 @@
 }
 
 #portfolioBtn {
+  color: #fff;
+  letter-spacing: 0.8px;
+  text-shadow: 0 0 2.5px #fff, 0 0 10px #fff, 0 0 10px #fff, 0 0 20px #d4af37,
+    0 0 40px #d4af37, 0 0 45px #d4af37, 0 0 50px #d4af37, 0 0 75px #d4af37;
   position: absolute;
-  bottom: 75px;
-  left: 0;
+  bottom: 180px;
+  left: 350px;
 }
 
 .holo {
@@ -61,16 +73,27 @@
 }
 
 .btn-warning {
-  width: 130px;
+  width: 230px;
   background-color: black;
   opacity: 0;
   color: #d4af37;
-  font-size: 22px;
+  font-size: 38px;
   animation-name: btnRender;
-  animation-delay: 6s;
-  animation-duration: 3s;
+  animation-delay: 30s;
+  animation-duration: 5s;
   animation-fill-mode: forwards;
 }
+
+.btn-warning:hover {
+  background-color: #d4af37;
+  color: black;
+}
+
+.btn-warning:active {
+  box-shadow: 0 19px #fff;
+  transform: translateY(14px) !important;
+}
+
 .innerSelf {
   /* border: 2px solid tan; */
   margin: auto;
