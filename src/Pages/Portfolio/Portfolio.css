@@ -1,0 +1,13 @@
+.img {
+  max-height: 800px;
+  max-width: 800px;
+  height: auto;
+  width: auto;
+  position: relative;
+}
+
+#imgHome {
+  color: #fff;
+  text-shadow: 0 0 2.5px #fff, 0 0 10px #fff, 0 0 10px #fff, 0 0 20px blue,
+    0 0 40px blue, 0 0 45px blue, 0 0 50px blue, 0 0 75px blue;
+}
