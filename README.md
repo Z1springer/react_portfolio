@@ -1,13 +1,3 @@
-<!-- //TODO: cog loading icon -->
-<!-- /X/TODO: front page load animation for cog image -->
-<!-- /X/TODO: front page text animation -->
-<!-- /X/TODO: fade-in buttons for navigation (possible pixel animation?) -->
-<!-- //TODO: About/Work-History/Future-Plans page (possible reuse of binary to text animations, must contain self-image) -->
-<!-- //TODO: Examples of my work page with hover animations (possible 3d) -->
-<!-- /X/TODO: contact page -->
-<!-- //TODO: holographic; black background, green and/or brightly colored text -->
-<!-- //TODO: font style must have a gothic feel to it when converted from binary -->
-
 Index
 
 - [Description](#description)
@@ -15,6 +5,12 @@ Index
 - [Current Image](#img)
 - [Text References](#text-references)
 - [Future Development](#future-development)
+
+# Deployed
+
+Link: https://zs-react-pf.herokuapp.com/
+
+![image](https://user-images.githubusercontent.com/74688904/108797444-0a886600-7540-11eb-8b2a-6759f51d2524.png)
 
 # Description
 
@@ -42,3 +38,15 @@ There is a lot that I still have planned to do, and this is only for the text th
 - [Typing Carousel](https://codepen.io/gschier/pen/jkivt) by: [Gregory Schier](https://codepen.io/gschier), for introduction text on app load
 - [Typed.css](https://codepen.io/brandonmcconnell/pen/bZqGdw) by: [Brandon McConnell](https://codepen.io/brandonmcconnell) for contact page text
 - [Luminance](https://codepen.io/onecastell/pen/VwZWBvr) by: [Franklin Castellanos](https://codepen.io/onecastell) for all text to give off a better glowing effect
+
+<!-- ===========================================================================================TODO List=========================================================================== -->
+<!-- //TODO: cog loading icon -->
+<!-- /X/TODO: front page load animation for cog image -->
+<!-- /X/TODO: front page text animation -->
+<!-- /X/TODO: fade-in buttons for navigation (possible pixel animation?) -->
+<!-- //TODO: About/Work-History/Future-Plans page (possible reuse of binary to text animations, must contain self-image) -->
+<!-- //TODO: Examples of my work page with hover animations (possible 3d) -->
+<!-- /X/TODO: contact page -->
+<!-- //TODO: holographic; black background, green and/or brightly colored text -->
+<!-- //TODO: font style must have a gothic feel to it when converted from binary -->
+<!-- ================================================================================================================================================================================ -->
