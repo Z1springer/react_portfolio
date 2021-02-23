@@ -23,8 +23,8 @@ function App() {
           <Route exact path="/portfolio" component={Portfolio} />
         </Switch>
       </Router>
-      <canvas id="noise" className="noise"></canvas>
-      <div className="vignette"></div>
+      {/* <canvas id="noise" className="noise"></canvas> */}
+      {/* <div className="vignette"></div> */}
     </div>
   );
 }
