@@ -6,6 +6,7 @@
 #present,
 #future {
   position: relative;
+  opacity: 0;
   width: 100%;
   height: auto;
   padding: 20px 24px;
@@ -23,4 +24,38 @@
   width: 100%;
   height: auto;
   position: relative;
+  opacity: 0;
+}
+
+#past,
+#me {
+  animation-name: renderMoi;
+  animation-delay: 2s;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+}
+
+#present,
+#code {
+  animation-name: renderMoi;
+  animation-delay: 40s;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+}
+
+#future,
+#booth {
+  animation-name: renderMoi;
+  animation-delay: 75s;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes renderMoi {
+  0% {
+    opecity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
