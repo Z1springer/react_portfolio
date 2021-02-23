@@ -7,8 +7,6 @@
 <!-- /X/TODO: contact page -->
 <!-- //TODO: holographic; black background, green and/or brightly colored text -->
 <!-- //TODO: font style must have a gothic feel to it when converted from binary -->
-<!-- //TODO: look for npm packages for added assistance -->
-<!-- //TODO: look into getting started with career service -->
 
 Index
 
@@ -20,7 +18,7 @@ Index
 
 # Description
 
-As you can plainly see just from looking it is not hard to tell that this portfolio still needs a lot of work styling-wise since I wanted to make styling about 70% of it. My intent is to style it in a manner similar to a universe that is very close to my heart; Warhammer 40k. Ever since I got started in programming a few months ago I could not get it out of my mind how much this made me think of the Tech-Priests of the 40k universe. Theirs is a faith dedicated to a deity known as the Machine God. Thus, with 40k being a major part of my life as a whole from books to games to even a couple movies, I could not help but try to reproduce the same gothic asthetic that I see in other media. Problem is, I am still very much a novice when it comes to these design aspects, but I have high hopes that given time enough to process and learn new ways of integrating these technologies, I will have this portfolio looking slick and awesome. All I need is time and the motivation to do it!
+As you can plainly see just from looking it is not hard to tell that this portfolio still needs a lot of work styling-wise since I wanted to make styling about 70% of it. And yes I am fully aware that it probably took you ages to navigate it, but that is only because this is all the beginning! My intent is to style it in a manner similar to a universe that is very close to my heart; Warhammer 40k. Ever since I got started in programming a few months ago I could not get it out of my mind how much this made me think of the Tech-Priests of the 40k universe. Theirs is a faith dedicated to a deity known as the Machine God. Thus, with 40k being a major part of my life as a whole from books to games to even a couple movies, I could not help but try to reproduce the same gothic asthetic that I see in other media. Problem is, I am still very much a novice when it comes to these design aspects, but I have high hopes that given time enough to process and learn new ways of integrating these technologies, I will have this portfolio looking slick and awesome. All I need is time and the motivation to do it!
 
 # Original
 
