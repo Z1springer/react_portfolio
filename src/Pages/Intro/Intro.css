@@ -5,7 +5,7 @@
   margin-right: 50px;
   position: relative;
   animation-name: textRender;
-  animation-delay: 6s;
+  animation-delay: 12s;
   animation-duration: 5s;
   animation-fill-mode: forwards;
 }
